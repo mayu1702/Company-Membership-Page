@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.heading1{
+    text-align: center;
+    background-color: #343a40;
+    width:auto;
+    align-items: center;
+    border-radius: 200px;
+    padding: 5px;
+  }
+  .heading2{
+    font-weight: bold;
+    text-align: center;
+    color: #343a40;
+    padding: 2rem;
+  }
+  #about{
+    text-align: center;
+    padding: 3rem;
+  }
+  hr {
+    border: none;
+    border-top: 3px dashed #343a40;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .team-category {
+    flex: 0 1 300px;
+    margin: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .team-category {
+      flex: 0 1 100%;
+    }
+}
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
